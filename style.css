@@ -9,15 +9,19 @@
     height: 100vh;
 }
 input{
-    text-transform: uppercase;
-    width: 100%;
-    padding: 10px 20px;
     position: absolute;
-    left: 0;
-    top: 0;
-    margin-top: 20px;
+    left: 2.5%;
+    top: 20px;
+    width: 95%;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 40px;
     letter-spacing: 3px;
-    font-size: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-image: url("./pen_write.svg");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 5px 50%;
 }
 #canvas{
     width: 100%;
